@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="yes" name="apple-mobile-web-app-capable"/>
+        <meta content="yes" name="apple-touch-fullscreen"/>
+        <meta content="black" name="apple-mobile-web-app-status-bar-style">
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+        <meta charset="utf-8" />
+        <title>Implement a list</title>
+        <style>
+        body,p,div{ margin: 0; padding: 0;  }
+            canvas{ margin:0 auto; }
+        #web-page {position: absolute;}
+        .block {
+            visibility: hidden;
+            background-color:red; margin-top: 30px; width: 300px; height: 100px;}
+        }
+        </style>
+        <script src="js/phaser.min.js"></script>
+    </head>
+    <body>
+        <div id="web-page">
+            <button id="start">Click</button>
+            <div class="block" id="block">Hehe</div>
+            <div class="block" id="block2">Hehe</div>
+            <div class="block" id="block3">Hehe</div>
+        </div>
+        <div id="game" style="margin:0px"></div>
+        <script src="js/game.js"></script>
+    </body>
+</html>
